@@ -14,7 +14,7 @@ public class TestActiviti {
 		processEngineConfiguration.setJdbcDriver("com.mysql.jdbc.Driver");
 		processEngineConfiguration.setJdbcUrl("jdbc:mysql://localhost:3306/itcast0711activiti?useUnicode=true&characterEncoding=utf8");
 		processEngineConfiguration.setJdbcUsername("root");
-		processEngineConfiguration.setJdbcPassword("root");
+		processEngineConfiguration.setJdbcPassword("123456");
 		
 		/**
 		 	public static final String DB_SCHEMA_UPDATE_FALSE = "false";不能自动创建表，需要表存在
